@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "papafont";
+  src: url("../assets/fonts/Knockout-HTF69-FullLiteweight.otf") format("truetype");
+}
+@font-face {
+  font-family: "papafont";
+  src: url("../assets/fonts/Knockout-HTF69-FullLiteweight.otf") format("truetype");
+}
+.adicional .adicional__button {
+  text-align: center;
+  background-color: #A39D9B;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 35px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+.confirm {
+  text-align: center;
+}
+.confirm .confirm__btn-confirm-adicional {
+  background-color: #009774;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.confirm .confirm__btn-confirm-adicional:focus {
+  outline: none;
+}
+
+.btn-active {
+  background-color: #009774 !important;
+  outline: none;
+}
+.btn-active:focus {
+  outline: none;
+}
+
+.box-size__border {
+  border: 2px solid #009774;
+  border-radius: 5px;
+}
+.box-size__border .box-size__border__name {
+  font-size: 22px;
+  font-weight: 500;
+  color: #807673;
+  font-family: "papafont";
+  text-transform: uppercase;
+}
+
+.adicional {
+  color: #898988;
+}
+.adicional .adicional__name {
+  font-size: 22px;
+  font-weight: 500;
+  color: #807673;
+  font-family: "papafont";
+  text-transform: uppercase;
+}
+.adicional .adicional__number-span {
+  color: #009774;
+  font-size: 24px;
+}
+.adicional .adicional--height-detail {
+  height: 85px;
+}
+@media (max-width: 340px) {
+  .adicional .adicional--height-detail {
+    height: 100px;
+  }
+}
+.adicional .adicional--height-detail2 {
+  height: 125px;
+}
+@media (max-width: 340px) {
+  .adicional .adicional--height-detail2 {
+    height: 150px;
+  }
+}
+.adicional .adicional--height-detail3 {
+  height: 150px;
+}
+@media (max-width: 340px) {
+  .adicional .adicional--height-detail3 {
+    height: 175px;
+  }
+}
+
+.detail {
+  margin: 0 1em;
+  padding: 1em;
+}
+.detail .detail__line {
+  height: 3px;
+  background-color: #BB141A;
+  margin-bottom: 10px;
+}
+.detail h5 {
+  color: #BB141A;
+  text-transform: uppercase;
+}
+.detail textarea {
+  border-radius: 5px;
+  border: 2px solid #009774;
+  width: 100%;
+}
+
+.headerbox {
+  text-align: center;
+}
+.headerbox .headerbox__image {
+  width: 128px;
+}
+
+.adicional-section__title {
+  background-color: #BB141A;
+  color: white;
+  font-size: 29px;
+  font-family: papafont;
+  text-transform: uppercase;
+}
+.adicional-section__title .adicional-section__image {
+  height: 40px;
+  width: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */

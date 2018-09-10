@@ -1,0 +1,68 @@
+.box-size__border {
+  border: 2px solid $green-papa;
+  border-radius: 5px;
+
+  .box-size__border__name {
+    font-size: 22px;
+    font-weight: 500;
+    color: $darkgrey-papa;
+    font-family: "papafont";
+    text-transform: uppercase;
+  }
+}
+
+.adicional {
+  color: #898988;
+
+  .adicional__name {
+    font-size: 22px;
+    font-weight: 500;
+    color: $darkgrey-papa;
+    font-family: "papafont";
+    text-transform: uppercase;
+  }
+
+  .adicional__number-span {
+    color: $green-papa;
+    font-size: 24px;
+  }
+
+  .adicional--height-detail {
+    height: 85px;
+    @media (max-width: 340px) {
+      height: 100px;
+    }
+  }
+
+  .adicional--height-detail2 {
+    height: 125px;
+    @media (max-width: 340px) {
+      height: 150px;
+    }
+  }
+  .adicional--height-detail3 {
+    height: 150px;
+    @media (max-width: 340px) {
+      height: 175px;
+    }
+  }
+}
+
+.detail{
+  margin: 0 1em;
+  padding: 1em;
+  .detail__line{
+    height: 3px;
+    background-color: $darkred-papa;
+    margin-bottom: 10px;
+  }
+  h5{
+    color: $darkred-papa;
+    text-transform: uppercase;
+  }
+  textarea{
+    border-radius: 5px;
+    border: 2px solid $green-papa;
+    width: 100%;
+  }
+}
