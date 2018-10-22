@@ -29,9 +29,9 @@ gulp.task('js', function() { // instalar  npm i gulp-concat gulp-uglify gulp-bab
 
 
 gulp.task('images', function () {
-    return gulp.src(['src/assets/images/*.*'])
+    return gulp.src(['src/images/*.*'])
         .pipe(imagemin())
-        .pipe(gulp.dest('public/assets/images/'));
+        .pipe(gulp.dest('public/images/'));
   });
   
 

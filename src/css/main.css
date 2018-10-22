@@ -48,22 +48,27 @@
   border-radius: 5px;
 }
 .box-size__border .box-size__border__name {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 500;
   color: #807673;
   font-family: "papafont";
   text-transform: uppercase;
 }
 
+.prueba {
+  width: 50%;
+}
+
 .adicional {
   color: #898988;
 }
 .adicional .adicional__name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   color: #807673;
   font-family: "papafont";
   text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 .adicional .adicional__number-span {
   color: #009774;
@@ -94,6 +99,10 @@
   }
 }
 
+.adicional__heigth {
+  height: 225px;
+}
+
 .detail {
   margin: 0 1em;
   padding: 1em;
@@ -111,6 +120,37 @@
   border-radius: 5px;
   border: 2px solid #009774;
   width: 100%;
+}
+
+.heightDescription--1 {
+  height: 70px;
+}
+
+.heightDescription--2 {
+  height: 130px;
+}
+@media (min-width: 341px) {
+  .heightDescription--2 {
+    height: 125px;
+  }
+}
+
+.heightDescription--3 {
+  height: 175px;
+}
+@media (min-width: 341px) {
+  .heightDescription--3 {
+    height: 150px;
+  }
+}
+
+.heightDescription--4 {
+  height: 230px;
+}
+@media (min-width: 341px) {
+  .heightDescription--4 {
+    height: 180px;
+  }
 }
 
 .headerbox {
