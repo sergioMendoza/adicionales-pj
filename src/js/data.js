@@ -247,16 +247,9 @@ const data = {
       detail: 'Rolls de Jamón a S/ 10.90',
       image: 'images/adicionales/rolls-jamon.jpg',
     },
+    
     {
       id: 'A3',
-      name: 'Wings',
-      description: '6 alitas de pollo asadas al horno, servidas con nuestra inigualable salsa BBQ',
-      price: '12.90',
-      detail: 'Wings a S/ 12.90',
-      image: 'images/adicionales/wings.jpg',
-    },
-    {
-      id: 'A4',
       name: 'Brushetta',
       description: 'Nuestra masa fresca recién horneada, cubierta con salsa de ajo y trocitos de tomate.',
       price: '12.90',
@@ -264,7 +257,7 @@ const data = {
       image: 'images/adicionales/brushetta.jpg',
     },
     {
-      id: 'A5',
+      id: 'A4',
       name: 'Cheesesticks',
       description: 'Una deliciosa combinación de nuestra masa fresca, exquisita salsa especial de ajo y 100% mozzarella.',
       price: '15.90',
@@ -272,24 +265,17 @@ const data = {
       image: 'images/adicionales/Cheese-Sticks.jpg',
     },
     {
-      id: 'A6',
+      id: 'A5',
       name: 'Fugazza',
-      description: 'Nuestra masa fresca recién horneada, cubierta con salsa de ajo y cebolla blanca.',
+      description: 'Nuestra deliciosa masa fresca recién horneada, cubierta con nuestra riquísima salsa de ajo y cebolla blanca.',
       price: '12.90',
       detail: 'Fugazza a S/ 15.90',
       image: 'images/adicionales/fugazza.jpg',
     },
-    {
-      id: 'A7',
-      name: 'Chicken Poppers',
-      description: '8 Deliciosos trocitos de pechuga de pollo ligeramente empanizados, cocinados al horno y acompañados de tu salsa favorita.',
-      price: '15.90',
-      detail: 'Chicken Poppers a S/ 15.90',
-      image: 'images/adicionales/chicken-poppers.jpg',
-    },
+  
 
     {
-      id: 'A8',
+      id: 'A6',
       name: 'Garlic Knots',
       description: 'Nuditos de pan hechos con fresca masa y bañados con nuestra deliciosa salsa de ajo y queso parmesano',
       price: '9.90',
@@ -299,7 +285,7 @@ const data = {
 
 
     {
-      id: 'A9',
+      id: 'A7',
       name: 'Stuffed Chessesticks',
       description: '6 Deliciosos palitos rellenos de 6 quesos, cubiertos con nuestra inigualable Salsa Garlic con un toque especial de tocino ahumado.',
       price: '14.90',
@@ -308,21 +294,14 @@ const data = {
     },
 
     {
-      id: 'A10',
+      id: 'A8',
       name: 'Palitos de Ajo Parmesano',
       description: 'Masa fresca recién horneada, cubierta con nuestra salsa de ajo y sazonados con queso parmesano y especias italianas.',
       price: '10.90',
       detail: 'Palitos de Ajo Parmesano a S/ 15.90',
       image: 'images/adicionales/palitos-ajo.jpg',
-    },
-    {
-      id: 'A11',
-      name: 'Papas',
-      description: 'Sabrosos cortes de papa sazonadas y horneadas hasta dorar, servidas con su elección de salsa BBQ o Buffalo',
-      price: '9.90',
-      detail: 'Papas a S/ 15.90',
-      image: 'images/adicionales/papas.jpg',
-    },
+    }
+    
 
     ],
     bebidas: [{
