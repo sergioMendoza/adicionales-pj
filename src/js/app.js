@@ -82,7 +82,7 @@ const templateProducts = (element, container) => {
   // template adicional : opciones de salsas A5= id de poppers chicken
   if (element.id === 'A5') {
     templateSelect = `<div class="form-group">
-                        <label for="exampleFormControlSelect1">Elije tu salsa favorita:</label>
+                        <label for="exampleFormControlSelect1">Elige tu salsa favorita:</label>
                         <select class="form-control" id="exampleFormControlSelect1">
                           <option>Salsa BBQ</option>
                           <option>Salsa Buffalo</option>
