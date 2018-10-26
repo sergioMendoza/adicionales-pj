@@ -63,9 +63,12 @@ document.addEventListener('click', (event) => {
   }
 });
 
-// Función que inserta los valores con el estilo determinado
+/* Función que inserta los valores con el estilo determinado de acuerdo
+ a la cantidad de palabras que tenga la descripción */
+ 
 const templateProducts = (element, container) => {
   const boxContainer = container;
+  let templateSelect = '';
   let heightDescription = '';
   if (element.description.split(' ').length <= 6) {
     heightDescription = 'heightDescription--1';
@@ -76,7 +79,17 @@ const templateProducts = (element, container) => {
   } else {
     heightDescription = 'heightDescription--4';
   }
-
+  // template adicional : opciones de salsas A5= id de poppers chicken
+  if (element.id === 'A5') {
+    templateSelect = `<div class="form-group">
+                        <label for="exampleFormControlSelect1">Elije tu salsa favorita:</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Salsa BBQ</option>
+                          <option>Salsa Buffalo</option>
+                          <option>Salsa Garlic</option>
+                        </select>
+                      </div> `;
+  }
   const template = `<div class="col-6 pt-2 mb-3">
 <div class="mb-2">
   <p class="mb-0 adicional__name text-center">${element.name}</p>
@@ -85,7 +98,11 @@ const templateProducts = (element, container) => {
   </div>
   <p class="text-center mb-0 adicional__name">S/${element.price}</p>
   <div  class="${heightDescription}">
-    <p class="adicional--font14 text-center mb-3">${element.description} </p>
+    <p class="text-center mb-3">${element.description} </p>
+  </div>
+ 
+  <div class="template-select text-center p-1">
+    ${templateSelect}
   </div>
   <div class="row">
     <div class="col-4 offset-1 text-right">
@@ -100,6 +117,7 @@ const templateProducts = (element, container) => {
       </button>
     </div>
   </div>
+  
 
 </div>
 </div>`;

@@ -250,42 +250,6 @@ const data = {
     
     {
       id: 'A3',
-      name: 'Brushetta',
-      description: 'Nuestra masa fresca recién horneada, cubierta con salsa de ajo y trocitos de tomate.',
-      price: '12.90',
-      detail: 'Brushetta a S/ 12.90',
-      image: 'images/adicionales/brushetta.jpg',
-    },
-    {
-      id: 'A4',
-      name: 'Cheesesticks',
-      description: 'Una deliciosa combinación de nuestra masa fresca, exquisita salsa especial de ajo y 100% mozzarella.',
-      price: '15.90',
-      detail: 'Cheesesticks a S/ 15.90',
-      image: 'images/adicionales/Cheese-Sticks.jpg',
-    },
-    {
-      id: 'A5',
-      name: 'Fugazza',
-      description: 'Nuestra deliciosa masa fresca recién horneada, cubierta con nuestra riquísima salsa de ajo y cebolla blanca.',
-      price: '12.90',
-      detail: 'Fugazza a S/ 15.90',
-      image: 'images/adicionales/fugazza.jpg',
-    },
-  
-
-    {
-      id: 'A6',
-      name: 'Garlic Knots',
-      description: 'Nuditos de pan hechos con fresca masa y bañados con nuestra deliciosa salsa de ajo y queso parmesano',
-      price: '9.90',
-      detail: 'Garlic Knots a S/ 15.90',
-      image: 'images/adicionales/garlic-knots.jpg',
-    },
-
-
-    {
-      id: 'A7',
       name: 'Stuffed Chessesticks',
       description: '6 Deliciosos palitos rellenos de 6 quesos, cubiertos con nuestra inigualable Salsa Garlic con un toque especial de tocino ahumado.',
       price: '14.90',
@@ -294,13 +258,22 @@ const data = {
     },
 
     {
-      id: 'A8',
+      id: 'A4',
       name: 'Palitos de Ajo Parmesano',
       description: 'Masa fresca recién horneada, cubierta con nuestra salsa de ajo y sazonados con queso parmesano y especias italianas.',
       price: '10.90',
       detail: 'Palitos de Ajo Parmesano a S/ 15.90',
       image: 'images/adicionales/palitos-ajo.jpg',
+    },
+    {
+      id: 'A5',
+      name: 'Chicken Poppers',
+      description: '8 Deliciosos trocitos de pechuga de pollo ligeramente empanizados, cocinados al horno y acompañados de tu salsa favorita.',
+      price: '15.90',
+      detail: 'Chicken Poppers a S/ 15.90',
+      image: 'images/adicionales/chicken-poppers.jpg',
     }
+
     
 
     ],
@@ -338,18 +311,51 @@ const data = {
     },
     {
       id: 'B5',
-      name: 'Fanta  Zero  Azúcar',
-      description: 'Fanta Zero Azúcar de 1,5L',
-      price: '7.90',
-      detail: 'Fanta Zero Azúcar a S/ 7.90',
-      image: 'images/bebidas/Logo-Fanta-Zero-Azucar.png',
+      name: 'Coca Cola',
+      description: 'Coca Cola sabor original personal',
+      price: '3.90',
+      detail: 'Coca Cola Original a S/ 3.90',
+      image: 'images/bebidas/CC-original.png',
     },
     {
       id: 'B6',
+      name: 'Inca Kola',
+      description: 'Inca Kola sabor original personal',
+      price: '3.90',
+      detail: 'Inca Kola Original a S/ 3.90',
+      image: 'images/bebidas/Logo-IK-original.png',
+    },
+    {
+      id: 'B7',
+      name: 'Coca Cola sin Azúcar',
+      description: 'Coca Cola sin azúcar personal',
+      price: '3.90',
+      detail: 'Coca Cola sin azúcar a S/ 3.90',
+      image: 'images/bebidas/CC-sin-azucar.png',
+    },
+    {
+      id: 'B8',
+      name: 'Inca Kola sin Azúcar ',
+      description: 'Inca Kola sin azúcar personal',
+      price: ' 3.90',
+      detail: 'Inca Kola sin azúcar a S/ 3.90',
+      image: 'images/bebidas/Logo-IK-sin-azucar.png',
+    },
+
+    {
+      id: 'B9',
+      name: 'Fanta  Zero  Azúcar',
+      description: 'Fanta Zero Azúcar personal',
+      price: '3.90',
+      detail: 'Fanta Zero Azúcar a S/ 3.90',
+      image: 'images/bebidas/Logo-Fanta-Zero-Azucar.png',
+    },
+    {
+      id: 'B10',
       name: 'Sprite Zero Azúcar',
-      description: 'Sprite Zero Azúcar de 1,5L',
-      price: '7.90',
-      detail: 'Sprite Zero Azúcar a S/ 7.90',
+      description: 'Sprite Zero Azúcar personal',
+      price: '3.90',
+      detail: 'Sprite Zero Azúcar a S/ 3.90',
       image: 'images/bebidas/Logo-Sprite-Zero-Azucar.png',
     },
     ],
@@ -360,24 +366,8 @@ const data = {
       price: '9.90',
       detail: 'Cinnamon Rolls a S/ 9.90',
       image: 'images/postres/cinnamonrolls.jpg',
-    },
-    {
-      id: 'P2',
-      name: "Papa's Cinnapie",
-      description: 'Masa original cubierta en dulce canela, horneada y cubierta con azúcar glaseado.',
-      price: '9.90',
-      detail: "Papa's Cinnapie a S/ 9.90",
-      image: 'images/postres/Papas-Cinnapie.png',
-    },
-
-    {
-      id: 'P3',
-      name: 'German Chocolate Pie',
-      description: 'El delicioso sabor del auténtico chocolate alemán, hecho con nuestra masa original, cubierto con chocolate y coco.',
-      price: '9.90',
-      detail: 'German Chocolate Pie a S/ 9.90',
-      image: 'images/postres/German-Chocolate-Pie.png',
-    },
+    }
+    
 
     ],
     extras: [{
